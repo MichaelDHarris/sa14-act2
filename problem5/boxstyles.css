@@ -1,0 +1,24 @@
+#box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    transition: transform 1s ease-in-out;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: #ff0000;
+    color: #fff;
+}
+.container {
+    position: relative;
+    width: 100px;
+    height: 75px;
+    margin: 20px auto;
+    overflow: hidden;
+}

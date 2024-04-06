@@ -34,5 +34,4 @@ function displayWeather(currentData, forecastData) {
                 </div>
             `).join('')}
         </div>
-    `;
-}
+    `;}

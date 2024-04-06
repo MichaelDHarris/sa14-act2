@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+<div class="container">
+    <h1>Account Creation</h1>
+    <form id="registrationform">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <span class="error" id="usernameError"></span>
+        </div>
+        <p><b></b></p>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span>
+        </div>
+        <p><b></b></p>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <span class="error" id="passwordError"></span>
+        </div>
+        <p><b></b></p>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<script src="registrationscript.js"></script>
+</body>
+</html>
